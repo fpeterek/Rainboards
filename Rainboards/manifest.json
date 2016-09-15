@@ -3,7 +3,7 @@
 
     "name": "Rainboards",
     "description": "This extension changes the color of the name 'GPet' to a rainbow. ",
-    "version": "1.0",
+    "version": "1.1",
 
 
     "content_scripts": [

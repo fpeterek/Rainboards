@@ -16,6 +16,19 @@ function replaceGPet() {
 
     }
 
+    elements = document.getElementsByClassName("players-profile-title")
+
+    for (var i = 0; i < elements.length; ++i) {
+
+        if (elements[i].textContent.toLowerCase() == "gpet" || elements[i].textContent.toLowerCase() == "gpet's profile") {
+
+            elements[i].className += " rainbow"
+            elements[i].style = ""
+
+        }
+
+    }
+
 }
 
 replaceGPet()
