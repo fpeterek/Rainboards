@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+
+    "name": "Rainboards",
+    "description": "This extension changes the color of the name 'GPet' to a rainbow. ",
+    "version": "1.0",
+
+
+    "content_scripts": [
+    {
+        "matches": ["*://*.leagueoflegends.com/*"],
+        "css": ["style.css"],
+        "js": ["script.js"]
+    }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
