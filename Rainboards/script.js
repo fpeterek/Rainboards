@@ -1,3 +1,5 @@
+/* This is a function just in case I decide to add more functionality into this extension */
+
 function replaceGPet() {
 
     var str = '<span class="username" data-bind="text: prefixName($data.prefix),' +
@@ -32,12 +34,3 @@ function replaceGPet() {
 }
 
 replaceGPet()
-
-/* 
-
-"browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-},
-
-*/
